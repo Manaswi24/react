@@ -1,0 +1,94 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-sarif;
+    }
+    .logo img {
+        width: 30px;
+        margin-top: 7px;
+        margin-right: 48px;
+    }
+    
+    .container {
+        width:100%;
+        height: 100%;
+        background: #42455a;
+    }
+    .menu ul{
+        display: inline-flex;
+        margin: 50px;
+        
+      }
+       ul li{
+          list-style: none;
+          margin: 0 20px;
+          color: #b2b1b1;
+          cursor: pointer;
+       
+      }
+      ul li a {
+        text-decoration: none;
+        color:#b2b1b1;
+        cursor: pointer;
+        display: block;
+      
+      }
+      .logo img {
+          width: 50px;
+      margin-top: 7px;
+      margin-right: 48px;
+        }
+        .active {
+            color: #19dafa !important;
+            width: 30px;
+            margin-top: 9px;
+            margin-right: 50px;
+        }
+        .Register{
+           width: 40px;
+           margin-top: 9px;
+           margin-right: 50px;
+        }
+
+        /* .dropbtn{
+            width: 50px;
+           margin-top: 8px;
+           margin-right: 50px;
+        }
+        .fa fa-caret-down{
+            width: 50px;
+            margin-top: 8px;
+            margin-right: 50px;
+        }
+        .dropdown-content{
+            width: 50px;
+            margin-top: 8px;
+            margin-right: 50px;
+        } */
+        .signup-btn {
+            top: 40px;
+            right: 80px;
+            position: absolute;
+            text-decoration: none;
+            color: #fff;
+            border:2px solid transparent;
+            border-radius: 20px;
+            background-image:linear-gradient(#71727c,#42455a), 
+            radial-gradient(circle at top left,#d12dbb,#44c9e0);
+            background-origin: border-box;
+            background-clip:content-off, border-box;
+        }
+        .signup-btn span{
+            display: block;
+            padding:8px 22px;
+        }
+    .banner {
+        width: 80%;
+        height: 70%;
+        top:25%;
+        left:130px;
+        position: absolute;
+        color:#fff;
+    
+    }
